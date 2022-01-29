@@ -61,6 +61,15 @@ export default function VideoComponent(
 	  }
 	
 	  //setting up the webcam from p5, and featureExtractor/classifier from ml5
+
+	  const options = {
+		audio: false,
+		video: {
+			facingMode: {
+			 exact: "environment"
+		   }
+		}
+	  };
   
 	  const setup = (p5: p5Types, canvasParentRef: Element) => {
 		capture.current = p5.createCapture(p5.VIDEO).parent(canvasParentRef);
