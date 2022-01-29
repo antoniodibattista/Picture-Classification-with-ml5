@@ -69,8 +69,6 @@
      
        return (
          <div>
-           <PermanentDrawerLeft></PermanentDrawerLeft>
-           <main className={classes.content}>
              <div className={classes.text}>
                <p>
                  Build and test your own image classifier using ml5.js!
@@ -161,7 +159,6 @@
                  numberOfEpochs={numberOfEpochs ? numberOfEpochs : 20}
                />
              </div>
-           </main>
          </div>
        );
      }
