@@ -72,7 +72,7 @@ export default function VideoComponent(
 	  };
   
 	  const setup = (p5: p5Types, canvasParentRef: Element) => {
-		capture.current = p5.createCapture(options).parent(canvasParentRef);
+		capture.current = p5.createCapture(p5.VIDEO).parent(canvasParentRef);
 		const featureExtractor = ml5.featureExtractor("MobileNet", {epochs: props.numberOfEpochs}, modelReady);
 		classifier.current = featureExtractor.classification(
 		  capture.current,
