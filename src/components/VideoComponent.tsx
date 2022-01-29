@@ -95,6 +95,8 @@ export default function VideoComponent(
 	  }
 	
 	  function train() {
+		  console.log("start train");
+		  console.log(classifier);
 		classifier.current.train((lossValue: number ) => {
 		  console.log("Loss is", lossValue);
 		  if (lossValue) {
