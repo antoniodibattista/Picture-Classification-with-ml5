@@ -18,7 +18,7 @@
     "chart.js": "^2.9.4",
     "js-regression": "^1.0.10",
     "mathjs": "^9.2.0",
-    "ml5": "^0.6.0",
+    "ml5": "^0.9.3",
     "ng2-charts": "^2.4.2",
     "react": "^17.0.1",
     "react-burger-menu": "^3.0.3",
