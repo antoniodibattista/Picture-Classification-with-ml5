@@ -153,6 +153,7 @@
                <br />
              </div>
              <div className="video">
+               BACK CAMERA?
                <VideoComponent
                  firstLabel={savedLabels ? firstLabel : "First"}
                  secondLabel={savedLabels ? secondLabel : "Second"}
